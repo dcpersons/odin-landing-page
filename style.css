@@ -145,13 +145,15 @@ background-color: #e5e7eb;
     background-color: #3882F6;
     color: #e5e7eb;
     padding:8px 32px;
-    border-width: 2px;
+    border: 2px solid #e5e7eb;
     font-weight: 900;
     border-radius: 7px;
     transition-duration: 200ms;
     font-size: 18px;
-    border-color: #e5e7eb;
-    border-style: solid;
+}
+
+.call-button:hover {
+    background-color: #2f68c5;
 }
 
 /*FONT STYLING */
