@@ -83,8 +83,8 @@ body {
 .info {
     display: flex;
     justify-content: center;
-    gap: 48px;
-    margin: 0 15%;
+    gap: 5%;
+    margin: 0 15% 96px;
 }
 
 .info img{
@@ -101,6 +101,19 @@ body {
     text-align: center;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 96px 20% 0;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    padding: 8px 22% 96px;
+}
 
 /* JUST FOR FONT STYLING */
 
@@ -120,4 +133,10 @@ body {
 a {
     text-decoration: none;
     color: #e5e7eb
+}
+
+.quote,
+.quote-source {
+color: #1f2937;
+background-color: #e5e7eb;
 }
