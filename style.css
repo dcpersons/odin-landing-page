@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -49,12 +49,8 @@ body {
 .hero-right {
     width: 450px;
     height: 200px;
-    display: flex;
-    flex: 1;
-    background-color: #e5e7eb30;
+    flex: 0;
     align-items: center;
-    justify-content: center;
-    color: #f9faf8;
 }
 
 .hero-button {
@@ -156,12 +152,18 @@ background-color: #e5e7eb;
     background-color: #2f68c5;
 }
 
-/*FONT STYLING */
+.footer {
+    padding: 48px 0;
+    text-align: center;
+}
+
+/*MISC FONT STYLING */
 
 .header li, 
 .hero p,
 a, 
-.call-to-action {
+.call-to-action,
+.footer {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
