@@ -101,6 +101,12 @@ body {
     text-align: center;
 }
 
+.quote,
+.quote-source {
+color: #1f2937;
+background-color: #e5e7eb;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
@@ -115,28 +121,52 @@ body {
     padding: 8px 22% 96px;
 }
 
-/* JUST FOR FONT STYLING */
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 96px 15%;
+    padding: 44px 126px;
+    border-radius: 10px;
+}
+
+.call-text p {
+    margin: 4px 0;
+}
+
+.call-text h5 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 4px 0;
+}
+
+.call-button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding:8px 32px;
+    border-width: 2px;
+    font-weight: 900;
+    border-radius: 7px;
+    transition-duration: 200ms;
+    font-size: 18px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+/*FONT STYLING */
 
 .header li, 
-.hero p{
+.hero p,
+a, 
+.call-to-action {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .big {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-}
-
-
-a {
-    text-decoration: none;
-    color: #e5e7eb
-}
-
-.quote,
-.quote-source {
-color: #1f2937;
-background-color: #e5e7eb;
 }
